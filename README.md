@@ -1,27 +1,39 @@
 # GithubSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
-## Development server
+##### By Collins Netia Odinga
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Description .
+<p>Create a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Go Back to the top
 
-## Build
+### Design .
+ *figma
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ Go Back to the top
 
-## Running unit tests
+### Tech used .
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+*HTML - This was used for structuring the page.
 
-## Running end-to-end tests
+*CSS - This was used for styling the page.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+*Angular CLI - Application design framework and development platform for single page applications
 
-## Further help
+Go Back to the top
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Licence
+
+Go Back to the top
+
+### Authors Info .
+
+
+Email - collimow54@gmail.com
+
+Go Back to the top
+
+About
+Create a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.
