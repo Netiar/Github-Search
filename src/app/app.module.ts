@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule,NO_ERRORS_SCHEMA  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 
-import { ProfileService } from './services/profile.service';
+import { ProfileService } from './src/app/components/services/profile.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,11 +16,14 @@ import { ProfileComponent } from './components/profile/profile.component';
    
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,    
     AppRoutingModule,
+    HttpModule
     
   ],
   providers: [ProfileService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]
 })
 export class AppModule { }
