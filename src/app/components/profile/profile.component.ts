@@ -9,9 +9,19 @@ import { ProfileService } from '../services/profile.service';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  constructor(private profileService:ProfileService) { 
+    this.profileService.getProfileInfo().subscribe((profile: any) => {
+      console.log(profile);
+  }
 
   ngOnInit(): void {
   }
 
 }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+  function ngOnInit(): any {
+    throw new Error('Function not implemented.');
+  }
+
