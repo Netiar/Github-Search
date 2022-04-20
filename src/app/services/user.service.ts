@@ -15,11 +15,11 @@ export class UserService {
   constructor(private http: HttpClient) {this.username = 'Netiar';}
 
   ngOnInit() {
-    this.getUserInfo();
-    this.http.get<any>('https://api.github.com/users').subscribe((data) => {
-      this.username = data.total;
-      console.log(this.username);
-    });
+    // this.getUserInfo();
+    // this.http.get<any>('https://api.github.com/users').subscribe((data) => {
+    //   this.username = data.total;
+    //   console.log(this.username);
+    // });
   }
   
   getUserInfo() {
