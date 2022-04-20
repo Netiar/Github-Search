@@ -12,7 +12,7 @@ export class UserService {
   private username: string;
   private _Url = 'https://api.github.com/users';
 
-  constructor(private http: HttpClient) {this.username = 'nazarena254';}
+  constructor(private http: HttpClient) {this.username = 'Netiar';}
 
   ngOnInit() {
     this.getUserInfo();
