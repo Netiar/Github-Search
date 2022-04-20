@@ -2,7 +2,8 @@
 {
     border-radius: 50%;
     margin-top: 5vh;
-    margin-left: 40%;
+    margin-left: 36vw;
+    
     
     
 }
@@ -12,3 +13,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.a1
+{
+   font-size: 20px;
+}
+
+.b1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+
+
+
