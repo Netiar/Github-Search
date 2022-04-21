@@ -21,11 +21,50 @@
    <img class="luffy" src="{{info.avatar_url}}" alt="" srcset="">
   
  </div>
+ <div>
+  <p class="a2"> {{info.name}}</p>
+ </div>
  <div class="b1">
    <p class="a1"> repositories {{info.public_repos}}</p>
     <p class="a1"> followers {{info.followers}}</p>
     <p class="a1"> following {{info.following}}</p>
  </div>
+
+ <div class="container2" *ngIf="display">
+ 
+
+    <div class="col-md-12 new-users" style="color:#fff; text-decoration: none; list-style: none">       
+        <div class="row "  >
+          <div>
+            <div class="mt-8 text-center" *ngIf="repos" ><br>
+              <a href="{{profiles.html_url}}" class="btn btn-dark btn-sm repo-btn" target="_blank">View {{profiles.login}} Repos</a>
+              
+             <br></div>
+          </div>
+          <div class="kaido">
+          <div class= "col-md-8 m-2  card " *ngFor="let repo of repos"     style="background-color:rgb(158, 157, 157);">
+              <a href="{{repo.html_url}}" class="github-card" data-github="Nexmo/nexmo-ruby">
+              <h4 class="ping" style="  color:#fff; ">{{repo.name}}</h4>
+              <p style="color: black;" >{{repo.description}}</p>
+              <p style="color: black;" >{{repo.created_at | date}}</p>
+            </a>
+          </div>
+        </div>
+        </div>
+    </div>
+    
+
+
+
+       
+    
+
+    
+    
+
+  
+
+
 
 
 

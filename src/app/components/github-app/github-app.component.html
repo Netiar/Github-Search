@@ -1,7 +1,13 @@
 <form class="row">
     <div class="form-group col-md-10">
         <input type="search" [(ngModel)]="username" id="searchQueryInput"
-        name="searchQueryInput" placeholder="Type Username Here..." 
-        (keyup)="findUser()" value="" class="form-control">
+        name="searchQueryInput" placeholder=" Enter Username .." 
+        (keyup)="findUser()" value="" class="form-control" >
     </div>
+   
 </form>
+<div class="kang">
+<button [disabled]="username.invalid" class="btn btn-dark" mt-4 type="submit" >
+    Enter 
+  </button>
+</div> 

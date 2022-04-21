@@ -10,7 +10,8 @@ import { UserService } from 'src/app/services/user.service';
 export class ProfileComponent implements OnInit {
   public info:any = [];
   public repos:any = [];
-  public profiles: any = []
+  public profiles: any = [];
+  public display:any =[]
  
   constructor(private RepositoryService:UserService) { 
 

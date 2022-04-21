@@ -2,7 +2,7 @@
 {
     border-radius: 50%;
     margin-top: 5vh;
-    margin-left: 36vw;
+    margin-left: 35vw;
     
     
     
@@ -27,6 +27,44 @@
     margin-left:auto ;
     margin-right: auto;
 }
+
+.a2
+{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 25px;
+
+}
+
+.container2
+{
+    justify-content: space-between;
+    width: 75%;
+    list-style: none;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a
+{
+    text-decoration: none;
+    margin-left: 2%;
+    
+}
+
+.kaido
+{ 
+    margin-left:16%;
+       
+   
+}
+
+
+
+
+
+
 
 
 
